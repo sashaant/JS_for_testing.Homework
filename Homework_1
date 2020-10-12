@@ -2,7 +2,7 @@ Example 1
 let cat = 'cat';
 let dog = 'dog';
 cat='dog';
-dog='cat'
+dog='cat';
 
 //Result:
 console.log(cat); // Should equal 'dog'
@@ -16,7 +16,7 @@ Example 2
 
 let cat = 'cat';
 let dog = 'dog';
-[cat, dog] = [dog, cat]
+[cat, dog] = [dog, cat];
 
 //Result:
 console.log(cat); // Should equal 'dog'
