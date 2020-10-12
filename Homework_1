@@ -1,4 +1,4 @@
-Example 1
+//Example 1
 let cat = 'cat';
 let dog = 'dog';
 cat='dog';
@@ -12,8 +12,7 @@ console.log(dog); // Should equal 'cat'
 
 
 
-Example 2
-
+//Example 2
 let cat = 'cat';
 let dog = 'dog';
 [cat, dog] = [dog, cat];
