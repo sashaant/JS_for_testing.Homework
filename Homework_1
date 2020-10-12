@@ -12,7 +12,28 @@ console.log(dog); // Should equal 'cat'
 
 
 
+
+
 //Example 2
+let cat = 'cat';
+let dog = 'dog';
+let cat1= cat;
+cat=dog;
+dog=cat1;
+
+
+//Result:
+console.log(cat); // Should equal 'dog'
+console.log(dog); // Should equal 'cat'
+
+
+
+
+
+
+
+
+//Example 3
 let cat = 'cat';
 let dog = 'dog';
 [cat, dog] = [dog, cat];
