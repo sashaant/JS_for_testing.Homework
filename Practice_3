@@ -12,16 +12,39 @@ helloColleagues()
 //2.1) 
 Write the function isEmpty(obj) which returns true if the object has no properties, false otherwise.
 
+VARIANT_1
+
 let schedule = {};
 
 function isEmpty(obj){
   let keys = Object.keys(obj);
   console.log(keys);
 
-  if (keys.length === 0){
-    return true
-  }
-  else {return false}
+  return keys.length ? false : true;  
+};
+
+console.log(isEmpty(schedule))
+
+
+schedule["8:30"] = "get up";
+console.log(isEmpty(schedule))
+console.log(schedule)
+
+
+
+VARIANT_2 
+let schedule = {};
+
+function isEmpty(obj){
+  let keys = Object.keys(obj);
+  console.log(keys);
+
+  return keys.length === 0 ? true : false;
+  
+  //if (keys.length === 0){
+  //  return true
+  //}
+  // else {return false}
   
 };
 
