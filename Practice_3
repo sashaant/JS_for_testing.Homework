@@ -53,4 +53,4 @@ console.log(isEmpty(schedule))
 
 schedule["8:30"] = "get up";
 console.log(isEmpty(schedule))
-console.log(schedule)
+console.log(schedule)  
