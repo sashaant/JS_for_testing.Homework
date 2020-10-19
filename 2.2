@@ -18,4 +18,14 @@ let salaries = {
     Petro: 500
   }
 
-  console.log(salaries.Mykola + salaries.Pavlo + salaries.Petro)
+// Variant_1 
+  console.log(salaries.Mykola + salaries.Pavlo + salaries.Petro
+
+// Variant_2
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+
+console.log(sum);
+
