@@ -1,5 +1,61 @@
-2.2) Write the function that takes two numbers and returns the maximum of two
-function maxNumber(a, b) {
+//2. Write the function called "helloColleagues" which should accept two parameter "company" and "team" and shoud return the string with 'I am working in "company" in amazing "team"';
+
+let company = 'Danavero';
+let team = 'JS';
+
+function helloColleagues() {
+      console.log(`I am working in ${company} in amazing ${team}`);
+}
+
+helloColleagues()
+
+//2.1) 
+Write the function isEmpty(obj) which returns true if the object has no properties, false otherwise.
+
+//VARIANT_1
+
+let schedule = {};
+
+function isEmpty(obj){
+  let keys = Object.keys(obj);
+  console.log(keys);
+
+  return keys.length ? false : true;  
+};
+
+console.log(isEmpty(schedule))
+
+
+schedule["8:30"] = "get up";
+console.log(isEmpty(schedule))
+console.log(schedule)
+
+
+
+//VARIANT_2 
+let schedule = {};
+
+function isEmpty(obj){
+  let keys = Object.keys(obj);
+  console.log(keys);
+
+  return keys.length === 0 ? true : false;
+  
+  //if (keys.length === 0){
+  //  return true
+  //}
+  // else {return false}
+  
+};
+
+console.log(isEmpty(schedule))
+
+
+schedule["8:30"] = "get up";
+console.log(isEmpty(schedule))
+console.log(schedule)  
+
+//2.2) Write the function that takes two numbers and returns the maximum of two function maxNumber(a, b) {
     if (a > b ){
         return a 
     }
@@ -11,7 +67,7 @@ function maxNumber(a, b) {
 // console.log(maxNumber(54,82))
 
 
-3. Write the function to sum all salaries and return it. Should be 1000 in the example above.
+//3. Write the function to sum all salaries and return it. Should be 1000 in the example above.
 let salaries = {
     Mykola: 250,
     Pavlo: 250,
