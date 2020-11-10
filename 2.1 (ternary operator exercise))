@@ -1,0 +1,30 @@
+1) Rewrite if with (using Ternary operator)
+
+let result;
+if (a + b < 10) {
+  result = 'Few';
+} else {
+  result = 'Many';
+}
+
+//RESULT:
+let a = 1;
+let b = 2;
+
+let result = a + b < 10 ? "Few" : "Many";
+
+console.log(result)
+
+
+//RESULT (with a long value)
+
+cosnt condition = ( a + b < 10 );
+const someLongValue = "jdbsfnlm;sdfnjsldf;mlsjadgnfsk;dlfldjlkfmnljadksfn";
+
+let result = condition ? someLongValue : someLongValue ;
+
+console.log(result)
+
+
+
+
