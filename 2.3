@@ -3,3 +3,24 @@
 - welcome user with his username
 - ask his birthday year
 - calculate how old is user, and print (or alert) his calculated age
+
+
+
+//RESULT_1
+
+let name = prompt("Please, entter your name");
+let age = prompt("Hello, " + name + "! Nice to meet you! Please, enter your bithday year");
+alert(2020 - age);
+
+//RESULT_2
+
+const name = prompt("Please, entter your name");
+if (name && name !== "!@#$%^&*())") 
+    alert(`Hello, ${name}, nice to meet you`)
+
+const bithYear = prompt("Please, enter your bithday year")
+
+let year = new Date().getFullYear();
+let ageYear = year - bithYear;
+if (bithYear)
+    alert (`Your age is ${ageYear}`);
