@@ -3,14 +3,30 @@
 2) Write an if condition to verify that the age variable is between 18 and 90 inclusive.
 Inclusive means that the value of age can be either 18 or 90.
 
+//RESULT_1
 let age = 100;
-if (age < 18 && age < 90) {
+if (age <= 18 && age <= 90) {
     console.log("Valid ")
 }
 else {
     console.log("Invalid")
 }
 
+
+
+//RESULT_2
+
+let age = prompt('What is your age ');
+const isAgeAcceptable = age > 18 && < 90;
+
+if (isAgeAcceptable){
+    alert('Nice age')
+};
+else{
+    alert('You are too small')
+};
+
+console.log(age)
 
 
 
