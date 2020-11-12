@@ -1,3 +1,15 @@
+1. Create object "post" which should contain
+title
+body
+author
+views
+comment which contain information about the authot first and last name and comment body
+isLive
+someFunction: result of calling console.log()
+
+
+//RESULT
+
 const post = {
     title: "Title 1”,
     body: "Some big body”,
