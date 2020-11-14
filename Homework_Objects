@@ -8,23 +8,29 @@ isLive
 someFunction: result of calling console.log()
 
 
+
+then get comment body and someFunction values using dots and bracket notation
+
+1.1 get the length of post object and  write the script which should return the list the properties values of a Post object
+
+
 //RESULT
 
 const post = {
-    title: "Title 1”,
-    body: "Some big body”,
-    author: "John Doe”,
+    title: "Title 1",
+    body: "Some big body",
+    author: "John Doe",
     views: 995,
     comment: {
-        commentAuthorFirstName: "Bob”,
-        commentAuthorLastName: "Qwerty”,
-        commentBody: "Some comment body”
+        commentAuthorFirstName: "Bob",
+        commentAuthorLastName: "Qwerty", 
+        commentBody: "Some comment body",
     },
     isLive: true,
     someFunction: function () {
-        console.log(“Hello”)
+        console.log("Hello")
     },
-    someArrowFunction: () => console.log(“Hello”),
+    someArrowFunction: () => console.log("Hello"),
 }
 
 console.log(post)
