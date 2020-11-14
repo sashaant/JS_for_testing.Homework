@@ -33,4 +33,23 @@ const post = {
     someArrowFunction: () => console.log("Hello"),
 }
 
-console.log(post)
+
+console.log(post.comment)
+console.log(post["comment"]["comment Body"]);
+post.someFunction()
+
+
+//1.1 get the length of post object and  write the script which should return the list the properties values of a Post object
+//RESULTS
+
+//console.log(Object.keys(post).length)
+//console.log(Object.values(post).length)
+//console.log(Object.getOwnPropertyNames(post).length)
+
+
+
+//
+for (let key in post){
+    console.log(post[key])
+}
+
