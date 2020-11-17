@@ -55,7 +55,10 @@ schedule["8:30"] = "get up";
 console.log(isEmpty(schedule))
 console.log(schedule)  
 
-//2.2) Write the function that takes two numbers and returns the maximum of two function maxNumber(a, b) {
+//2.2) Write the function that takes two numbers and returns the maximum of two function maxNumber(a, b) 
+
+
+function maxNumber(a, b) {
     if (a > b ){
         return a 
     }
@@ -65,6 +68,12 @@ console.log(schedule)
   }
 
 // console.log(maxNumber(54,82))
+
+
+
+
+
+
 
 
 //3. Write the function to sum all salaries and return it. Should be 1000 in the example above.
